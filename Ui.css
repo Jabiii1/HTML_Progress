@@ -13,14 +13,17 @@ h1 {
 
 input[type="text"],
 input[type="password"] {
-    width: 20%;
+    width: 16%;
     padding: 10px;
     margin: 1px 0;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
 
-input[type="checkbox"] {
-    margin: 10px 0;
-
+.rememberPass {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
 }
+
