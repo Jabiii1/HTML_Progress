@@ -4,12 +4,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-right: 50px;
+    height: 100vh;
 }
 
 .loginForm {
     background: #fff;
-    padding: 100px;
+    padding: 250px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     width: 300px;
@@ -47,7 +49,7 @@ body {
 
 button {
     padding: 10px;
-    border: none;
+    border: none;   
     background: #2d8fff;
     color: white;
     border-radius: 4px;
@@ -56,7 +58,7 @@ button {
 }
 
 button:hover {
-    background: #09aaf5;
+    background: #3033fa;
 }
 
 footer {
