@@ -1,36 +1,32 @@
 <!DOCTYPE html>
-<html>
-<link rel="stylesheet" type="text/css" href="Ui.css">
-<meta charset="UTF-8">
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Log In</title>
+    <link rel="stylesheet" type="text/css" href="Ui.css">
 </head>
-
-<header>
-    <h1>Login</h1>
-</header>
-
 <body>
-    <!-- INPUTS -->
-    <input type="text" placeholder="Email"><br><br>
-    <input type="password" placeholder="Password"><br><br>
-    
-    
-    <!-- BUTTONS -->
 
-    <div class="rememberPass">
-        <Label>
-        <input type="checkbox"> Remember me
-        </Label>
-        <a href="newpage.html" class="forgotPass-link">Forgot Password</a>
+    <div class="loginForm">
+        <form>
+            <h1>Log In</h1>
+            <input id="email" type="text" placeholder="Email">
+            <input id="password" type="password" placeholder="Password">
+
+            <div class="rememberPass">
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>
+                <a href="newpage.html" class="forgotPass-link">Forgot Password</a>
+            </div>
+
+            <button id="login" type="submit">Login</button>
+        </form>
     </div>
 
-    <br>
-    
-    <button id="login" type="submit">Login</button><br><br>
-
-    <a href="https://github.com/Jabiii1">About Me</a>
+    <footer>
+        <a href="https://github.com/Jabiii1">About Me</a>
+    </footer>
 
 </body>
 </html>

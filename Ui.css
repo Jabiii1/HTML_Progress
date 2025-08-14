@@ -1,29 +1,64 @@
-body{
-
-    background-image: -moz-linear-gradient() #f4f4f4;
+body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 50px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
 }
-h1 {
-    text-align: left;
-    color: #333;
+
+.loginForm {
+    background: #fff;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.loginForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
 }
 
 
-input[type="text"],
-input[type="password"] {
-    width: 16%;
+.loginForm input[type="text"],
+.loginForm input[type="password"] {
     padding: 10px;
-    margin: 1px 0;
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .rememberPass {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    width: 300px;
+    font-size: 14px;
 }
 
+.forgotPass-link {
+    text-decoration: none;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+.forgotPass-link:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #2d8fff;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #09aaf5;
+}
+
+footer {
+    margin-top: 20px;
+}
